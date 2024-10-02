@@ -1,0 +1,26 @@
+name: newpark
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+
+  url_launcher: ^6.0.10
+
+  cloud_firestore: ^4.8.0
+  firebase_auth: ^4.6.2
+  firebase_core: ^2.13.1
+  flutter:
+    sdk: flutter
+  upi_india: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
